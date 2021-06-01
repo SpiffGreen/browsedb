@@ -1,0 +1,32 @@
+{
+  "name": "browsedb",
+  "version": "1.0.0",
+  "description": "BrowseDB is a javascript clientside library for managing localStorage data in mongoose style.",
+  "main": "browsedb.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpiffGreen/browsedb.git"
+  },
+  "keywords": [
+    "localStorage",
+    "browser",
+    "database",
+    "db",
+    "data",
+    "management",
+    "client",
+    "mongoose"
+  ],
+  "author": "Spiff Jekey-Green",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/SpiffGreen/browsedb/issues"
+  },
+  "homepage": "https://github.com/SpiffGreen/browsedb#readme"
+}
