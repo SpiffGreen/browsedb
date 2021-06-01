@@ -1,6 +1,6 @@
 # BrowseDB 🛢️
 
-![](https://github.com/SpiffGreen/browsedb/public/screenshot.PNG)
+![](https://raw.githubusercontent.com/SpiffGreen/browsedb/main/public/screenshot.PNG)
 
 ## 🔗Description
 BrowseDB is a javascript clientside library for managing localStorage data in mongoose style. BrowseDB provides it's users methods for mangaging localStorage data efficiently. It can be used for simple CRUD operations. BrowseDB data is stored in string format but all data operations are done in json format.
