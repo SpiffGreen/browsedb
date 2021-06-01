@@ -68,7 +68,7 @@ First, to use browsedb. Include/import browsedb, then create an instance of brow
 
 ## Installation
 ### Content Delivery Networks
-CDN Link   https://cdnjs.org/libraries/browsedb.min.js
+CDN Link   https://unpkg.com/browsedb@1.0.0/browsedb.min.js
 
 HTML Tag
 ```html
