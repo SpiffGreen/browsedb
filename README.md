@@ -72,7 +72,7 @@ CDN Link   https://cdnjs.org/libraries/browsedb.min.js
 
 HTML Tag
 ```html
-    <script src="https://cdnjs.org/libraries/browsedb.min.js"><script>
+    <script src="https://unpkg.com/browsedb@1.0.0/browsedb.min.js"><script>
 ```
 
 ### Using npm
