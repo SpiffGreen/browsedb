@@ -1,0 +1,6 @@
+/localtest
+/docs
+
+jsdoc.json
+*.html
+*.css
