@@ -2,7 +2,7 @@
  * @author  Spiff Jekey-Green <spiffjekeygreen@gmail.com>
  * @see     https://browsedb.github.io
  * @version 1.0.0
- * @license MIT
+ * @license GPL-3.0-or-later
  */
  export default class BrowseDB {
     constructor(collectionName, schema = null) {
