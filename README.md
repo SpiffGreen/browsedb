@@ -3,14 +3,14 @@
 ![](https://raw.githubusercontent.com/SpiffGreen/browsedb/main/public/screenshot.PNG)
 
 ## 🔗Description
-BrowseDB is a javascript clientside library for managing localStorage data in mongoose style. BrowseDB provides it's users methods for mangaging localStorage data efficiently. It can be used for simple CRUD operations. BrowseDB data is stored in string format but all data operations are done in json format.
+BrowseDB is a JavaScript clientside library for managing localStorage data in mongoose style. BrowseDB provides its users, methods for managing localStorage data efficiently. It can be used for simple CRUD operations. BrowseDB's data is stored in string format but all data operations are done in JSON format.
 
 ## 📕 Terminologies
-`Collections` - All BrowseDB instances are called collections, as they are just collection(array) of objects(documents).
+`Collections` - All BrowseDB instances are called collections, as they are just collections(arrays) of objects(documents).
 
 `Documents` - As you might have guessed, are simply objects.
 
-`Schema` - A schema is simply an object that describes the expected structure or blueprint of documents of a particular collection. This could be used for some sort of type checking. And is also optional
+`Schema` - A schema is simply an object that describes the expected structure or blueprint of documents of a particular collection. This could be used for some sort of type checking. It is optional.
 
 ## ⚙️Usage and Settings
 First, to use browsedb. Include/import browsedb, then create an instance of browsedb. Example
@@ -75,7 +75,7 @@ HTML Tag
     <script src="https://unpkg.com/browsedb@1.0.0/browsedb.min.js"><script>
 ```
 
-### Using npm
+### Using NPM
 ```bash
     npm install browsedb
 ```
@@ -84,12 +84,12 @@ HTML Tag
 *   yarn build or npm run build - produces a production version of library under the lib folder
 
 ## ⭐️Show your support
-Please this repository if this project helped you!
+Please star this repository if this project helped you!
 
 ## 👋 Contributing
 Please read the CONTRIBUTING.md file to see how to contribute.
 
 ## 🌤️Browser compatibility
-browsedb will work across browsers that support localStorage.
+Browsedb works across all browsers that support localStorage.
 You could check for compatibility here:
 *   https://caniuse.com/#search=localStorage
