@@ -1,4 +1,5 @@
 # BrowseDB 🛢️
+https://spiffgreen.github.io/browsedb-js/
 
 ![](https://raw.githubusercontent.com/SpiffGreen/browsedb/main/public/screenshot.PNG)
 
@@ -22,7 +23,7 @@ First, to use browsedb. Include/import browsedb, then create an instance of brow
         },
         done: Boolean,
         date: {
-            type: Date,
+            type: Number,
             required: true,
             default: Date.now
         }

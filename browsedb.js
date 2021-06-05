@@ -4,7 +4,7 @@
  * @version 1.0.0
  * @license GPL-3.0-or-later
  */
- export default class BrowseDB {
+ class BrowseDB {
     constructor(collectionName, schema = null) {
         if(localStorage.getItem(collectionName) === null) localStorage.setItem(collectionName, "[]");
         this.collectionName = collectionName;
@@ -76,7 +76,7 @@
                     throw new EvalError(`'${field}' is required`);
                 }
                 if(typeof schema[field]["type"] == "function") {
-                    if(typeof schema[field]["type"]() !== typeof result[field]) throw new TypeError(`Expected a ${typeof schema[field]()} instead got a ${typeof inp[field]}`);
+                    if(typeof schema[field]["type"]() !== typeof result[field]) throw new TypeError(`Expected a ${typeof schema[field]["type"]()} instead got a ${typeof inp[field]}`);
                 }
             }
         }
