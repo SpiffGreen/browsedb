@@ -1,6 +1,8 @@
 
-<center>
+<div align="center">
 <h1>BrowseDB 🛢️</h1>
+
+BrowseDB is a JavaScript clientside library for managing localStorage data in mongoose style. BrowseDB provides its users, methods for managing localStorage data efficiently. It can be used for simple CRUD operations. BrowseDB's data is stored in string format but all data operations are done in JSON format.
 
 ![](https://img.shields.io/github/license/SpiffGreen/browsedb) ![](https://img.shields.io/npm/v/browsedb) ![](https://img.shields.io/github/size/spiffgreen/browsedb/browsedb.js)
 
@@ -8,12 +10,9 @@
 
 
 [Visit Site For more Docs](https://spiffgreen.github.io/browsedb-js/)
-</center>
+</div>
 
 <!-- ![](https://raw.githubusercontent.com/SpiffGreen/browsedb/main/public/screenshot.PNG) -->
-
-## 🔗Description
-BrowseDB is a JavaScript clientside library for managing localStorage data in mongoose style. BrowseDB provides its users, methods for managing localStorage data efficiently. It can be used for simple CRUD operations. BrowseDB's data is stored in string format but all data operations are done in JSON format.
 
 ## 📕 Terminologies
 `Collections` - All BrowseDB instances are called collections, as they are just collections(arrays) of objects(documents).
