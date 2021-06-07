@@ -78,11 +78,11 @@ First, to use browsedb. Include/import browsedb, then create an instance of brow
 
 ## Installation
 ### Content Delivery Networks
-CDN Link   https://unpkg.com/browsedb@1.1.1/browsedb.min.js
+CDN Link   https://unpkg.com/browsedb@1.1.2/browsedb.min.js
 
 HTML Tag
 ```html
-    <script src="https://unpkg.com/browsedb@1.1.1/browsedb.min.js"><script>
+    <script src="https://unpkg.com/browsedb@1.1.2/browsedb.min.js"><script>
 ```
 
 ### Using NPM
