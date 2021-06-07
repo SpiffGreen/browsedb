@@ -1,5 +1,5 @@
 
-<div style="text-align: center;">
+<center>
 <h1>BrowseDB 🛢️</h1>
 
 ![](https://img.shields.io/github/license/SpiffGreen/browsedb) ![](https://img.shields.io/npm/v/browsedb) ![](https://img.shields.io/github/size/spiffgreen/browsedb/browsedb.js)
@@ -8,7 +8,7 @@
 
 
 [Visit Site For more Docs](https://spiffgreen.github.io/browsedb-js/)
-</div>
+</center>
 
 <!-- ![](https://raw.githubusercontent.com/SpiffGreen/browsedb/main/public/screenshot.PNG) -->
 
