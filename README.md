@@ -1,7 +1,16 @@
-# BrowseDB 🛢️
-https://spiffgreen.github.io/browsedb-js/
 
-![](https://raw.githubusercontent.com/SpiffGreen/browsedb/main/public/screenshot.PNG)
+<div style="text-align: center;">
+<h1>BrowseDB 🛢️</h1>
+
+![](https://img.shields.io/github/license/SpiffGreen/browsedb) ![](https://img.shields.io/npm/v/browsedb) ![](https://img.shields.io/github/size/spiffgreen/browsedb/browsedb.js)
+
+![](https://img.shields.io/github/languages/top/spiffgreen/browsedb) ![](https://img.shields.io/github/forks/SpiffGreen/browsedb) ![](https://img.shields.io/github/issues/SpiffGreen/browsedb) ![](https://img.shields.io/github/issues/SpiffGreen/browsedb)
+
+
+[Visit Site For more Docs](https://spiffgreen.github.io/browsedb-js/)
+</div>
+
+<!-- ![](https://raw.githubusercontent.com/SpiffGreen/browsedb/main/public/screenshot.PNG) -->
 
 ## 🔗Description
 BrowseDB is a JavaScript clientside library for managing localStorage data in mongoose style. BrowseDB provides its users, methods for managing localStorage data efficiently. It can be used for simple CRUD operations. BrowseDB's data is stored in string format but all data operations are done in JSON format.
@@ -69,11 +78,11 @@ First, to use browsedb. Include/import browsedb, then create an instance of brow
 
 ## Installation
 ### Content Delivery Networks
-CDN Link   https://unpkg.com/browsedb@1.0.0/browsedb.min.js
+CDN Link   https://unpkg.com/browsedb@1.1.1/browsedb.min.js
 
 HTML Tag
 ```html
-    <script src="https://unpkg.com/browsedb@1.0.0/browsedb.min.js"><script>
+    <script src="https://unpkg.com/browsedb@1.1.1/browsedb.min.js"><script>
 ```
 
 ### Using NPM
