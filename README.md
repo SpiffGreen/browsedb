@@ -24,6 +24,8 @@ BrowseDB is a JavaScript clientside library for managing localStorage data in mo
 ## ⚙️Usage and Settings
 First, to use browsedb. Include/import browsedb, then create an instance of browsedb. Example
 ```javascript
+    import BrowseDB from "browsedb";
+
     const schema = {
         text: {
             type: String,
@@ -39,7 +41,7 @@ First, to use browsedb. Include/import browsedb, then create an instance of brow
     const todos = new BrowseDB("todos", schema);
 ```
 
-## Methods
+## ▶️Methods
 * `create` - Used for creating documents. It accepts an object containing required data for object creation and returns a copy of the new document inserted into localStorage with its ID. BrowseDB generates a unique ID for the newly inserted document.
 ```javascript
     todos.create({ text: "Learn BrowseDB", done: false });
@@ -77,16 +79,47 @@ First, to use browsedb. Include/import browsedb, then create an instance of brow
 
 ## Installation
 ### Content Delivery Networks
-CDN Link   https://unpkg.com/browsedb@1.1.2/browsedb.min.js
+🚀CDN Link   https://unpkg.com/browsedb@1.1.2/browsedb.min.js
 
 HTML Tag
 ```html
     <script src="https://unpkg.com/browsedb@1.1.2/browsedb.min.js"><script>
 ```
 
-### Using NPM
+### 📦Using NPM
 ```bash
     npm install browsedb
+```
+
+## Caveats
+### Schema
+Like mongoose, BrowseDB supports schema. But in BrowseDB uses the builtin types available to javascript for type checking. Hence, `Date` isn't a type as it produces a number.
+
+But there is a work around for this. Instead of:
+```javascript
+    {
+        detail: {
+            type: String,
+            required: true
+        },
+        date: {
+            type: Date,
+            default: Date.now
+        }
+    }
+```
+One should do:
+```javascript
+    {
+        detail: {
+            type: String,
+            required: true
+        },
+        date: {
+            type: Number,
+            default: Date.now
+        }
+    }
 ```
 
 ## ⛏️Development
@@ -96,9 +129,14 @@ HTML Tag
 Please star this repository if this project helped you!
 
 ## 👋 Contributing
-Please read the CONTRIBUTING.md file to see how to contribute.
+Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) file to see how to contribute.
 
 ## 🌤️Browser compatibility
 Browsedb works across all browsers that support localStorage.
 You could check for compatibility here:
 *   https://caniuse.com/#search=localStorage
+
+## 📄License
+[GPL-3.0 License](./LICENSE)
+
+Copyright (c) Spiff Jekey-Green
